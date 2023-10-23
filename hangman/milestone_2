@@ -1,21 +1,24 @@
 import random 
+#adding random package
 
 word_list = ["Apple", "Plum", "Grape", "Orange", "Apricot"] 
-
+#creating list of 5 fruits to be guessed
 print(word_list)
+#showing list in terminal 
 
-computer_choice = random.choice(word_list)
-
-print(computer_choice)
-
-while True:
+mystery_word = random.choice(word_list)
+#choosing a random word from the list
+print(mystery_word)
+# showimg word in terminal 
+while True:  #loop to prevent code from stoppping
     try: 
         player_guess = input("Enter a single letter ")
-        if len(player_guess) == 1 and player_guess.isalpha() :
+        if len(player_guess) == 1 and player_guess.isalpha() :     
+            # if length is equal to 1 and input is alpabetical letter loop will break
             print("Good guess!")
             break
         else: 
             print("Oops! That is not a vaild input.")
-    except Exception as e:
+    except Exception as e: #catch and print exceptions 
         print(e) 
 
