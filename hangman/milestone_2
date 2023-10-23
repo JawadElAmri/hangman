@@ -1,7 +1,7 @@
 import random 
 #adding random package
 
-word_list = ["Apple", "Plum", "Grape", "Orange", "Apricot"] 
+word_list = ["apple", "plum", "grape", "orange", "apricot"] 
 #creating list of 5 fruits to be guessed
 print(word_list)
 #showing list in terminal 
