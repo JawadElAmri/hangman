@@ -28,5 +28,5 @@ if len(guess) == 1 and guess.isalpha() :
 The try except block is in a while loop to enrue the programme does not stop ruuning when an incorrect option is entered 
 I then set it to catch exceptions as e and print e in order to catch other exceptions.
 
-To refactor my code I have renamed the following variables word to computer_choice and guess to player_guess
+To refactor my code I have renamed the following variables word to mystery_word and guess to player_guess
 
