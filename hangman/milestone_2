@@ -1,20 +1,21 @@
 import random 
 
-word_list = ["Apple", "Plum", "Grape", "Orange", "Apricot"] 
+list_of_fruits = ["Apple", "Plum", "Grape", "Orange", "Apricot"] 
 
-print(word_list)
+print(list_of_fruits)
 
-word = random.choice(word_list)
+computer_choice = random.choice(list_of_fruits)
 
-print(word)
+print(computer_choice)
 
 while True:
     try: 
-        guess = input("Enter a single letter ")
-        if len(guess) == 1 and guess.isalpha() :
+        player_guess = input("Enter a single letter ")
+        if len(player_guess) == 1 and player_guess.isalpha() :
             print("Good guess!")
             break
         else: 
             print("Oops! That is not a vaild input.")
     except Exception as e:
-        print(e)
+        print(e) 
+
