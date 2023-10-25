@@ -82,9 +82,9 @@ class Hangman():
         player_guess = player_guess.lower()
         if player_guess.lower() in self.mystery_word:
                  print(f'Good guess! {player_guess} is in the word')
-                 for i, letter in enumerate(self.mystery_word):
+                 for letter_index, letter in enumerate(self.mystery_word):
                      if letter == player_guess:
-                         self.mystery_word_guessed[i] = player_guess
+                         self.mystery_word_guessed[letter_index] = player_guess
                          print(self.mystery_word_guessed)
                  self.num_letters = self.num_letters - 1
        
