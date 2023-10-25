@@ -86,6 +86,7 @@ class Hangman():
                      if letter == player_guess:
                          self.mystery_word_guessed[letter_index] = player_guess
                          print(self.mystery_word_guessed)
+                         #shows updated mystery_word_guessed with corecctly guessed letters and blanks to guess
                  self.num_letters = self.num_letters - 1
        
                  
