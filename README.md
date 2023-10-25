@@ -31,14 +31,20 @@ Then enter the directory containing this project
 
 ## File structure of the project
 There are several files associatied with this project:
-- hangman_Template.py: Template file provided by AiCore
+- hangman_Template.py
+
+     Template file provided by AiCore
 - milestone_2.py
+
     First task created initial variables of the game
 - milestone_3.py
+
     Second task checked if the guessed character is in the word
 - milestone_4.py
+    
     Third task created the game class
 - milestone_5.py 
+    
     Final task created the game logic 
 
 ## License information
