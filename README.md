@@ -8,6 +8,7 @@ License information
 
 # Hangman - Project
 Second python project completed for AiCore skills bootcamp 
+
 October 2023
 
 ## Summary 
@@ -20,16 +21,17 @@ This project has been a fun way to get to grips with python, exposing me to a ra
 ## Installation instructions 
 Clone this repo in your terminal using the link provided at the top of this page. It should look like this in your terminal: 
 
-git clone https://github.com/JawadElAmri/hangman.git
+     git clone https://github.com/JawadElAmri/hangman.git
 
 Then enter the directory containing the project 
-cd hangman 
+
+     cd hangman 
 
 ## Usage instructions
 
 ## File structure of the project
 There are several files associatied with this project:
-- hangman_Template.py: Temple file provided by AiCore
+- hangman_Template.py: Template file provided by AiCore
 - milestone_2.py: first task 
 - milestone_3.py second task
 - milestone_4.py third task
