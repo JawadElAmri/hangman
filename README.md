@@ -16,14 +16,14 @@ Hangman is a classic game in which a player thinks of a word and the other playe
 
 This is an implementation of the Hangman game, where the computer thinks of a word from a selected list of fruits and the user tries to guess it within a given number of turns.  
 
-This project has been a fun way to get to grips with python, exposing me to a range of fundimental techniques and features to ensure a solid foundation and build transferable skills. Such as implementing and following object oriented programming practicies.
+This project has been a fun way to get to grips with python, exposing me to a range of fundimental techniques and features to ensure a solid foundation and build transferable skills. Such as implementing and following the practicies of object oriented programming.
 
 ## Installation instructions 
-Clone this repo in your terminal using the link provided at the top of this page. It should look like this in your terminal: 
+Clone this repo in your terminal using the link provided at the top of this page. It should look like this:
 
      git clone https://github.com/JawadElAmri/hangman.git
 
-Then enter the directory containing the project 
+Then enter the directory containing this project 
 
      cd hangman 
 
