@@ -108,24 +108,20 @@ class Hangman():
         """
         
         while True:  
-            try: 
+            try:
                  player_guess = input("Guess a single letter in the mystery word ")
                  
-                 if len(player_guess) != 1 and not player_guess.isalpha():
+                 if not player_guess.isalpha() or len(player_guess) != 1:
                      print("Invalid letter. Please, enter a single alphabetical character.")
                  
                  elif player_guess in self.list_of_guesses:
                      print("You've already tried that letter")
                  
                  else: 
-                      self.check_guess(player_guess)
-                      self.list_of_guesses.append(player_guess)
-
-            
-            except Exception as e: 
-              print(e) 
-        
-        
+                     self.check_guess(player_guess)
+                     self.list_of_guesses.append(player_guess)  
+            except Exception as e:
+                 print(e)
 
 word_list = ["apple", "plum", "grape", "orange", "apricot"]             
 game_attempt = Hangman(word_list)
