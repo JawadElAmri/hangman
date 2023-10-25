@@ -21,7 +21,9 @@ Then enter the directory containing this project:
 
 ## Usage instructions
 launch milestone_5 in the terminal
-    python3 milestone_5
+
+
+      python3 milestone_5
 
 You can then run the script in the terminal, and you will be greeted with a list of blank spaces. This is mystery_word picked at random from the word_list. As seen below in the VS code screen shot.
 
