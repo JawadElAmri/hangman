@@ -4,11 +4,11 @@ Second python project completed for AiCore
 October 2023
 
 ## Summary 
-Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
+Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain number of attempts.
 
 This is an implementation of the Hangman game, where the computer thinks of a word from a selected list of fruits and the user tries to guess it within a given number of turns.  
 
-This project has been a fun way to get to grips with python, exposing me to a range of fundimental techniques and features to ensure a solid foundation and build transferable skills. Such as implementing and following the practicies of object oriented programming.
+This project has been a fun way to get to grips with python, exposing me to a range of fundamental techniques and features to ensure a solid foundation and build transferable skills. Such as implementing and following the practices  of object-oriented programming.
 
 ## Installation instructions 
 Clone this repo in your terminal using the link provided at the top of this page. It should look like this:
@@ -20,7 +20,7 @@ Then enter the directory containing this project:
      cd hangman 
 
 ## Usage instructions
-launch milestone_5 in the terminal
+Launch milestone_5 in the terminal
 
 
       python3 milestone_5
@@ -44,7 +44,7 @@ To play the game again, clear your terminal and run the script again.
 
 
 ## File structure of the project
-There are several files associatied with this project:
+There are several files associated with this project:
 - Image for README.md file
 
 - hangman_Template.py
@@ -52,16 +52,16 @@ There are several files associatied with this project:
      Template file provided by AiCore
 - milestone_2.py
 
-    First task created initial variables of the game
+    First task set up initial variables of the game
 - milestone_3.py
 
-    Second task checked if the guessed character is in the word
+    Second task check if the guessed character is in the word
 - milestone_4.py
     
-    Third task created the game class
+    Third task create the game class
 - milestone_5.py 
     
-    Final task created the game logic 
+    Final task create the game logic 
 
 ## License information
 My project is unlicensed 
